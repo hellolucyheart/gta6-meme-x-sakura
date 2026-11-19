@@ -10,6 +10,8 @@
 // Run it locally the way the grader does:
 //   mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
 // On success it prints nothing and out/POST.json is byte-for-byte POST.json.
+// The run is deterministic by construction: it reads one file, writes one
+// file, and touches no clock, no network and nothing outside the repository.
 
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";

@@ -12,6 +12,8 @@ A GTA 6 meme for make.fun's "Post a GTA 6 meme on X" bounty ($500 in USDC, top 5
 
 The meme is posted on X from the public account @hello_lucyheart, with make.fun and the entrant's play code in its text. The house reads the post from X (its first picture, then its text) and an AI judge compares posts two at a time. `POST.json` at this repository's root names the post's address; `main.ts` hands it to the grader.
 
+**Post status:** the meme is ready and the post text below is final, but the post itself goes out from the account owner's phone — until then `POST.json` still holds its placeholder address and the entry is not submittable. Once posted, the real address replaces the placeholder and the new commit is the one to submit.
+
 Post text (posted by the account owner from their phone):
 
 > Waited 13 years for GTA 6… my AI agent got paid TODAY 😂👻
